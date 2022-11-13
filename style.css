@@ -222,8 +222,9 @@ p {
 .hamburger {
     position: absolute;
     cursor: pointer;
-    top: 10px;
-    left: 10px;
+    margin-top: 15px;
+    
+    margin-left: 15px;
 
 }
 
