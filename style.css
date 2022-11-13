@@ -234,9 +234,9 @@ p {
 
 @media (max-width:700px) {
     
-          * {
+/*           * {
        background-color: rgb(144, 221, 221);
-    }
+    } */
     
 
     .devinfo {
@@ -261,9 +261,9 @@ p {
 
 }
 @media (max-width:1700px) {
-    * {
+/*     * {
         background-color: rgb(144, 221, 221);
-    }
+    } */
     .sidebar {
     /* background-color */
         background-color: rgb(188, 205, 205);}
