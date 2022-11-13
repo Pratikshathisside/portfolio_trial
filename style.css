@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    /* background-color */
+    background-color: rgb(188, 205, 205);
+    /* width: 400px; */
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    /* taki wo fix ho jae*/
+
+
+}
+
+.sidebar nav {
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 0;
+    padding-right: 0;
+
+
+}
+
+.sidebar nav li a {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+
+}
+
+.sidebar nav li a:hover {
+    list-style: none;
+    color: black;
+    text-decoration: underline;
+
+}
+
+.main {
+    /* background-color: bisque; */
+    width: 88vw;
+
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+
+}
+
+.info {
+    /* background-color: rgb(246, 17, 234); */
+
+    height: 55vh;
+    width: 70vw;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.devinfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 3em;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+
+}
+
+.moreabout {
+    margin-top: 2.2em;
+    font-size: 19px
+}
+
+.about {
+    font-size: 2em;
+}
+
+.buttons {
+    margin-top: 2.2em;
+}
+
+.buttons button {
+    border-radius: 24px;
+    font-size: 1.5em;
+    color: white;
+    padding: 9px 14px;
+    font-weight: bold;
+    background-color: rgba(1, 16, 30, 0.905);
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+
+.buttons button:hover {
+    background-color: white;
+    color: rgba(1, 16, 30, 0.905);
+}
+
+.devpic img {
+
+    height: 55vh;
+
+}
+
+.contactform {
+
+    padding: 0 34px;
+    /* padding-top: 150px; */
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: bold;
+    flex-direction: column;
+    font-size: 16px;
+
+}
+
+.contactform h1 {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 30px;
+
+}
+
+.contactform form div {
+    /* padding: 15px 0; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    /* width: 20vw; */
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+
+
+}
+
+
+
+#emailHelp {
+    font-size: 12px;
+    color: rgba(32, 32, 91, 0.984);
+    padding: 5px 5px;
+
+}
+
+#formcheck {
+    flex-direction: row;
+}
+
+#formcheck input {
+    width: 15px;
+}
+
+.btn {
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(3, 6, 36);
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    font-size: 15px;
+    border-radius: 10px;
+
+    background-color: white;
+    color: rgb(3, 6, 36);
+}
+
+h1 {
+    margin: 23px;
+}
+
+p {
+    margin: 0 14px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hg {
+    margin: 0 14px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sidebarGo {
+    transform: translate(-400px, 0);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+
+.cross {
+    margin-left: 130px;
+    margin-top: 3px;
+}
+
+@media (max-width:700px) {
+    * {
+        /* background-color: rgb(243, 131, 131); */
+    }
+
+    .devinfo {
+        font-size: 10px;
+    }
+
+    .devpic {
+        display: none;
+    }
+
+    .buttons {
+        font-size: 8px;
+    }
+
+    /* .sidebar {
+        transform: translate(-400px, 0);
+        position: absolute;
+    } */
+
+}
