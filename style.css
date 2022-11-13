@@ -212,11 +212,7 @@ p {
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
 }
-@media (max-width:1700px) {
-    * {
-        background-color: rgb(144, 221, 221);
-    }
-}
+
 
 .sidebarGo {
     transform: translate(-400px, 0);
@@ -260,4 +256,9 @@ p {
         position: absolute;
     } */
 
+}
+@media (max-width:1700px) {
+    * {
+        background-color: rgb(144, 221, 221);
+    }
 }
