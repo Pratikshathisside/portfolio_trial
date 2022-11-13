@@ -250,6 +250,9 @@ p {
     .buttons {
         font-size: 8px;
     }
+    .sidebar {
+    /* background-color */
+        background-color: rgb(188, 205, 205);}
 
     /* .sidebar {
         transform: translate(-400px, 0);
@@ -261,4 +264,7 @@ p {
     * {
         background-color: rgb(144, 221, 221);
     }
+    .sidebar {
+    /* background-color */
+        background-color: rgb(188, 205, 205);}
 }
