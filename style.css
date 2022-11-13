@@ -232,9 +232,11 @@ p {
 }
 
 @media (max-width:700px) {
-    * {
-        /* background-color: rgb(243, 131, 131); */
+    
+          * {
+        background-color: azure;
     }
+    
 
     .devinfo {
         font-size: 10px;
