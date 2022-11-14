@@ -9,7 +9,7 @@
 
 .sidebar {
     /* background-color */
-    background-color: rgb(188, 205, 205);
+       background-color: rgb(74 133 133);
     /* width: 400px; */
     font-family: 'Lato', sans-serif;
     height: 100vh;
@@ -58,6 +58,7 @@
 }
 
 .container {
+        background-color: #a5bab7;
     display: flex;
 
 }
