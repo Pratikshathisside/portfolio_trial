@@ -110,17 +110,17 @@
 
 .buttons {
     margin-top: 2.2em;
-    border-color: #990011FF;
+
 }
 
 .buttons button {
     border-radius: 20px;
-    border-color: #990011FF;
+    border-color: rgba(0, 0, 0, 0.958);
     font-size: 1.5em;
     color: white;
     padding: 9px 14px;
-    font-weight: bold;
-    background-color: rgb(140, 3, 19);
+
+    background-color: rgba(0, 0, 0, 0.958);
     margin: 3px 3px;
     cursor: pointer;
 }
@@ -128,8 +128,9 @@
 
 .buttons button:hover {
     background-color: white;
-    border-color: #990011FF;
-    color: #990011FF;
+    border-color: rgba(0, 0, 0, 0.958);
+    color: rgba(0, 0, 0, 0.958);
+    font-weight: bold;
 }
 
 .devpic img {
@@ -193,7 +194,7 @@
     font-size: 15px;
     border-radius: 10px;
     font-weight: bold;
-    background-color: #990011FF;
+    background-color: rgba(0, 0, 0, 0.958);
     color: white;
     cursor: pointer;
 }
@@ -201,9 +202,10 @@
 .btn:hover {
     font-size: 15px;
     border-radius: 10px;
-    border-color: #990011FF;
+
+    border-color: rgba(0, 0, 0, 0.958);
     background-color: white;
-    color: #990011FF;
+
 }
 
 h1 {
