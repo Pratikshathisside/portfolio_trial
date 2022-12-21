@@ -5,11 +5,13 @@
 * {
     margin: 0;
     padding: 0;
+
+
 }
 
 .sidebar {
     /* background-color */
-       background-color: rgb(90 133 133);
+
     /* width: 400px; */
     font-family: 'Lato', sans-serif;
     height: 100vh;
@@ -23,6 +25,7 @@
 .sidebar nav {
     padding: 20px;
     height: 100vh;
+    background-color: rgb(125, 2, 17);
 }
 
 .sidebar nav li {
@@ -38,14 +41,14 @@
 
 .sidebar nav li a {
     list-style: none;
-    color: black;
+    color: #ffffff;
     text-decoration: none;
 
 }
 
 .sidebar nav li a:hover {
     list-style: none;
-    color: black;
+    color: rgb(255, 253, 253);
     text-decoration: underline;
 
 }
@@ -58,7 +61,8 @@
 }
 
 .container {
-        background-color: azure;
+    background-color: #FCF6F5FF;
+    height: 100vh;
     display: flex;
 
 }
@@ -90,6 +94,7 @@
 .name {
     font-size: 3em;
     font-weight: bold;
+    color: #990011FF;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
 
 }
@@ -105,15 +110,17 @@
 
 .buttons {
     margin-top: 2.2em;
+
 }
 
 .buttons button {
-    border-radius: 24px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.958);
     font-size: 1.5em;
     color: white;
     padding: 9px 14px;
-    font-weight: bold;
-    background-color: rgba(1, 16, 30, 0.905);
+
+    background-color: rgba(0, 0, 0, 0.958);
     margin: 3px 3px;
     cursor: pointer;
 }
@@ -121,7 +128,9 @@
 
 .buttons button:hover {
     background-color: white;
-    color: rgba(1, 16, 30, 0.905);
+    border-color: rgba(0, 0, 0, 0.958);
+    color: rgba(0, 0, 0, 0.958);
+    font-weight: bold;
 }
 
 .devpic img {
@@ -185,7 +194,7 @@
     font-size: 15px;
     border-radius: 10px;
     font-weight: bold;
-    background-color: rgb(3, 6, 36);
+    background-color: rgba(0, 0, 0, 0.958);
     color: white;
     cursor: pointer;
 }
@@ -194,8 +203,9 @@
     font-size: 15px;
     border-radius: 10px;
 
+    border-color: rgba(0, 0, 0, 0.958);
     background-color: white;
-    color: rgb(3, 6, 36);
+
 }
 
 h1 {
@@ -224,7 +234,7 @@ p {
     position: absolute;
     cursor: pointer;
     margin-top: 15px;
-    
+
     margin-left: 15px;
 
 }
@@ -232,14 +242,16 @@ p {
 .cross {
     margin-left: 115px;
     margin-top: 3px;
+    background: url(cross.png);
+    filter: brightness(1) invert(1.7) sepia(.5) hue-rotate(100deg) saturate(100%);
 }
 
 @media (max-width:700px) {
-    
-/*           * {
+
+    /*           * {
        background-color: rgb(144, 221, 221);
     } */
-    
+
 
     .devinfo {
         font-size: 10px;
@@ -252,9 +264,11 @@ p {
     .buttons {
         font-size: 8px;
     }
+
     .sidebar {
-    /* background-color */
-        background-color: rgb(188, 205, 205);}
+        /* background-color */
+        background-color: rgb(188, 205, 205);
+    }
 
     /* .sidebar {
         transform: translate(-400px, 0);
@@ -262,11 +276,14 @@ p {
     } */
 
 }
+
 @media (max-width:1700px) {
-/*     * {
+
+    /*     * {
         background-color: rgb(144, 221, 221);
     } */
     .sidebar {
-    /* background-color */
-        background-color: rgb(188, 205, 205);}
+        /* background-color */
+        background-color: rgb(188, 205, 205);
+    }
 }
