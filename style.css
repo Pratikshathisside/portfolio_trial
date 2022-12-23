@@ -282,6 +282,9 @@ p {
     .devpic {
         display: none;
     }
+    .box{
+        display:none;
+    }
 
     .buttons {
         font-size: 8px;
