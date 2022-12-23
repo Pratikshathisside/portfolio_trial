@@ -25,7 +25,7 @@
 .sidebar nav {
     padding: 20px;
     height: 100vh;
-    background-color: rgb(125, 2, 17);
+    background-color: teal;
 }
 
 .sidebar nav li {
@@ -61,7 +61,7 @@
 }
 
 .container {
-    background-color: #FCF6F5FF;
+    background-color: lavender;
     height: 100vh;
     display: flex;
 
@@ -94,7 +94,7 @@
 .name {
     font-size: 3em;
     font-weight: bold;
-    color: #990011FF;
+    color: teal;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
 
 }
@@ -115,13 +115,13 @@
 
 .buttons button {
     border-radius: 20px;
-    border-color: rgb(125, 2, 17);
+    border-color: teal;
     ;
     font-size: 1.5em;
     color: white;
     padding: 9px 14px;
 
-    background-color: rgb(125, 2, 17);
+    background-color: teal;
     ;
     margin: 3px 3px;
     cursor: pointer;
@@ -130,21 +130,20 @@
 
 .buttons button:hover {
     background-color: white;
-    border-color: rgb(125, 2, 17);
-    color: rgb(125, 2, 17);
+    border-color: teal;
+    color: teal;
     font-weight: bold;
 }
 
 
 
 .devpic img {
-
     filter: drop-shadow(5px 5px 5px white);
     border-image: 3px;
     border-color: white;
     border-radius: 0% 15% 0% 20%;
     margin: -5px;
-    border: rgb(125, 2, 17);
+    border: teal;
     height: 55vh;
 
 
@@ -155,8 +154,8 @@
     position: relative;
     height: 450px;
     width: 500px;
-    border-radius: 20% 20% 0% 20%;
-    background: rgb(125, 2, 17);
+    border-radius: 0% 20% 0% 20%;
+    background: teal;
 
 
 }
@@ -216,7 +215,7 @@
     font-size: 15px;
     border-radius: 10px;
     font-weight: bold;
-    background-color: rgb(125, 2, 17);
+    background-color: teal;
     color: white;
     cursor: pointer;
 }
@@ -224,8 +223,8 @@
 .btn:hover {
     font-size: 15px;
     border-radius: 10px;
-
-    border-color: rgb(125, 2, 17);
+    color: teal;
+    border-color: teal;
     background-color: white;
 
 }
@@ -282,8 +281,9 @@ p {
     .devpic {
         display: none;
     }
-    .box{
-        display:none;
+
+    .box {
+        display: none;
     }
 
     .buttons {
@@ -292,7 +292,7 @@ p {
 
     .sidebar {
         /* background-color */
-        background-color: rgb(125, 2, 17);
+        background-color: teal;
     }
 
     /* .sidebar {
@@ -309,6 +309,6 @@ p {
     } */
     .sidebar {
         /* background-color */
-        background-color: rgb(188, 205, 205);
+        background-color: teal;
     }
 }
