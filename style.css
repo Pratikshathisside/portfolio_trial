@@ -61,7 +61,7 @@
 }
 
 .container {
-    background-color: rgb(225, 240, 234);
+    background-color: rgb(244, 252, 252);
     height: 100vh;
     display: flex;
 
@@ -138,6 +138,7 @@
 
 
 .devpic img {
+    filter: brightness(1.1);
     display: inline;
     border-image: 3px;
     border-color: white;
