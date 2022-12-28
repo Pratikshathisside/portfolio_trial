@@ -31,12 +31,16 @@
 .sidebar nav {
     padding: 20px;
     height: 100vh;
-<<<<<<< Updated upstream
-    background-color: #303b2e;
-=======
+
     background-color: teal;
 
->>>>>>> Stashed changes
+
+}
+
+.boxes {
+    background-color: teal;
+    height: 100vh;
+    width: 30vw;
 }
 
 .sidebar nav li {
@@ -72,11 +76,11 @@
 }
 
 .container {
-<<<<<<< Updated upstream
-    background-color: #efebe0;
-=======
+
+    background-color: teal;
+
     background-color: rgb(250, 253, 253);
->>>>>>> Stashed changes
+
     height: 100vh;
     display: flex;
 
@@ -109,7 +113,7 @@
 .name {
     font-size: 3.2em;
     font-weight: bold;
-    color: #303b2e;
+    color: teal;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
 
 }
@@ -130,13 +134,13 @@
 
 .buttons button {
     border-radius: 20px;
-    border-color: #303b2e;
+    border-color: teal;
     ;
     font-size: 1.5em;
     color: #efebe0;
     padding: 9px 14px;
 
-    background-color: #303b2e;
+    background-color: teal;
     ;
     margin: 3px 3px;
     cursor: pointer;
@@ -145,8 +149,8 @@
 
 .buttons button:hover {
     background-color: #efebe0;
-    border-color: #303b2e;
-    color: #303b2e;
+    border-color: teal;
+    color: teal;
     font-weight: bold;
 }
 
@@ -156,17 +160,16 @@
     filter: brightness(1.1);
     display: inline;
     border-image: 3px;
-<<<<<<< Updated upstream
+
     border-color: #efebe0;
     border-radius: 0% 15% 0% 15%;
     margin: -5px -80px 0px 20px;
-    border: #303b2e;
-=======
+
     border-color: white;
     border-radius: 0% 15% 0% 15%;
     margin: -5px -80px 0px 20px;
     border: teal;
->>>>>>> Stashed changes
+
     height: 60vh;
 
 }
@@ -245,8 +248,8 @@
 .btn:hover {
     font-size: 15px;
     border-radius: 10px;
-    color: #303b2e;
-    border-color: #303b2e;
+    color: teal;
+    border-color: teal;
     background-color: #efebe0;
 
 }
