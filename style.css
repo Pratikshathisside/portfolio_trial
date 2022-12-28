@@ -25,7 +25,7 @@
 .sidebar nav {
     padding: 20px;
     height: 100vh;
-    background-color: teal;
+    background-color: #303b2e;
 }
 
 .sidebar nav li {
@@ -41,14 +41,14 @@
 
 .sidebar nav li a {
     list-style: none;
-    color: #ffffff;
+    color: #efebe0;
     text-decoration: none;
 
 }
 
 .sidebar nav li a:hover {
     list-style: none;
-    color: rgb(255, 253, 253);
+    color: #efebe0;
     text-decoration: underline;
 
 }
@@ -61,7 +61,7 @@
 }
 
 .container {
-    background-color: rgb(250, 253, 253);
+    background-color: #efebe0;
     height: 100vh;
     display: flex;
 
@@ -94,7 +94,7 @@
 .name {
     font-size: 3.2em;
     font-weight: bold;
-    color: teal;
+    color: #303b2e;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
 
 }
@@ -115,13 +115,13 @@
 
 .buttons button {
     border-radius: 20px;
-    border-color: teal;
+    border-color: #303b2e;
     ;
     font-size: 1.5em;
-    color: white;
+    color: #efebe0;
     padding: 9px 14px;
 
-    background-color: teal;
+    background-color: #303b2e;
     ;
     margin: 3px 3px;
     cursor: pointer;
@@ -129,9 +129,9 @@
 
 
 .buttons button:hover {
-    background-color: white;
-    border-color: teal;
-    color: teal;
+    background-color: #efebe0;
+    border-color: #303b2e;
+    color: #303b2e;
     font-weight: bold;
 }
 
@@ -141,10 +141,10 @@
     filter: brightness(1.1);
     display: inline;
     border-image: 3px;
-    border-color: white;
+    border-color: #efebe0;
     border-radius: 0% 15% 0% 15%;
     margin: -5px -80px 0px 20px;
-    border: teal;
+    border: #303b2e;
     height: 60vh;
 
 }
@@ -216,16 +216,16 @@
     border-radius: 10px;
     font-weight: bold;
     background-color: teal;
-    color: white;
+    color: #efebe0;
     cursor: pointer;
 }
 
 .btn:hover {
     font-size: 15px;
     border-radius: 10px;
-    color: teal;
-    border-color: teal;
-    background-color: white;
+    color: #303b2e;
+    border-color: #303b2e;
+    background-color: #efebe0;
 
 }
 
@@ -293,7 +293,7 @@ p {
 
     .sidebar {
         /* background-color */
-        background-color: teal;
+        background-color: #303b2e;
     }
 
     /* .sidebar {
@@ -310,6 +310,6 @@ p {
     } */
     .sidebar {
         /* background-color */
-        background-color: teal;
+        background-color: #303b2e;
     }
 }
