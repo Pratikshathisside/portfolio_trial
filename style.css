@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Extra+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passions+Conflict&display=swap');
 
 * {
     margin: 0;
@@ -37,12 +40,22 @@
 
 }
 
+.boxes2 {
+
+    background-color: teal;
+    margin-top: 7vh;
+    height: 83vh;
+    width: 28vw;
+}
+
 .boxes {
 
     background-color: teal;
+
     height: 100vh;
     width: 28vw;
 }
+
 
 .sidebar nav li {
     list-style: none;
@@ -96,6 +109,131 @@
     margin: 130px 70px;
     display: flex;
     justify-content: space-around;
+}
+
+.info2 {
+    margin-top: 80px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+    margin-left: 140px;
+    font-weight: -100;
+    letter-spacing: 1.3;
+}
+
+.intro {
+    margin-top: -40px;
+    margin-left: 140px;
+    font-family: 'Passions Conflict';
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: normal;
+    color: teal;
+}
+
+
+
+.about2 {
+
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 130px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 45vw;
+
+}
+
+.edu {
+
+    margin-top: 50px;
+    margin-left: 170px;
+    color: #15171b;
+
+}
+
+.main .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.heading {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 50, 50);
+    padding: 0 0 20px 30px;
+}
+
+.col .contents {
+    padding: 0px 30px;
+    border-left: 3px solid #bababb;
+}
+
+.col .contents .box5 {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #c4ccca;
+    border-radius: 3px;
+    background-color: #ecfaf6;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+
+.col .contents .box5:hover {
+    box-shadow: 0 3px 12px 0px rgb(166, 171, 172);
+    border: 1px solid transparent;
+
+}
+
+.col .contents .box5:hover::before {
+    margin-top: 50px;
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    right: calc(100% + 15px);
+    transition: 0.5s;
+    top: 0;
+    background-color: teal;
+    border: 2px sollid rgb(205, 204, 204);
+
+}
+
+.col .contents .box5::before {
+    /*margin-left: -60px;*/
+    margin-top: 0px;
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 25px);
+    top: 0;
+    background-color: teal;
+    border: 2px sollid white;
+
+}
+
+.box5 h4 {
+    position: relative;
+    color: teal;
+}
+
+.box5 h3 {
+    font-size: 19px;
+
+    padding: 10px 0px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 44, 44);
+}
+
+.box5 p {
+    line-height: 1.2;
+    color: #666;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .devpic2 {
@@ -162,7 +300,28 @@
 
 
 
-.devpic img {
+.boxes2 .devpic img {
+    filter: brightness(1.1);
+    display: inline;
+    border-image: 3px;
+
+    border-color: #efebe0;
+    /* border-radius: 0% 15% 0% 15%; */
+    /* margin: -5px -80px 0px 20px; */
+    /* margin-right: 100px; */
+
+    border-color: white;
+    /* border-radius: 0% 15% 0% 15%; */
+    margin: 50px 0px 30px 40px;
+    border: teal;
+
+    height: 60vh;
+    border-radius: 5px;
+
+
+}
+
+.boxes .devpic img {
     filter: brightness(1.1);
     display: inline;
     border-image: 3px;
@@ -178,6 +337,7 @@
     border: teal;
 
     height: 60vh;
+    border-radius: 5px;
 
 
 }
@@ -349,6 +509,17 @@ p {
     }
 }
 
+.icons {
+    margin-left: 3.1em;
+    word-spacing: 20px;
+}
+
+.iconstwo {
+    display: none;
+    margin-left: 3.1em;
+    word-spacing: 20px;
+}
+
 .cube span {
     position: absolute;
     margin-top: 8vh;
@@ -368,12 +539,17 @@ p {
 } */
 
 
-@media (max-width:700px) {
+@media (max-width:800px) {
 
     /*           * {
        background-color: rgb(144, 221, 221);
     } */
 
+    .iconstwo {
+        display: contents;
+        padding-left: 2em;
+        word-spacing: 20px;
+    }
 
     .devinfo {
         font-size: 10px;
@@ -415,6 +591,8 @@ p {
         border-radius: 0 0 80px 80px;
     }
 
+
+
     .boxes .devpic {
         display: none;
     }
@@ -452,6 +630,11 @@ p {
 
 
     }
+
+    .boxes2 {
+        display: none;
+    }
+
 
     /* .sidebar {
 
