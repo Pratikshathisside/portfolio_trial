@@ -1,84 +1,61 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
+    height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: rgb(7, 7, 7);
+    justify-content: center;
+    background: #7d2ae8;
 }
 
-.cube {
+.container {
+    display: flex;
+    width: 420px;
+    padding: 50px 0;
+    border-radius: 8px;
+    background: #fff;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circular-progress {
     position: relative;
-    width: 300px;
-    height: 300px;
-    transform-style: preserve-3d;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.cube div {
+.circular-progress::before {
+    content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transform: rotateX(-30deg);
-    animation: animate 4s linear infinite;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #fff;
 }
 
-@keyframes animate {
-    0% {
-        transform: rotateX(-30deg) rotateY(0deg);
-
-    }
-
-    100% {
-        transform: rotateX(-30deg) rotateY(360deg);
-    }
+.progress-value {
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
 }
 
-.cube div span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#151815, #00ec00);
-    transform: rotateY(calc(90deg*var(--i))) translateZ(150px);
+.text {
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
 }
-
-/* .top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 300px;
-    height: 300px;
-    background: #222;
-    /* transform: rotateX(90deg) translateZ(150 px);
-
-} */
-/* 
-    ; */
-
-/* .top::before {
-        content: ' ';
-
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 300px;
-        height: 300px;
-        background: #0f0;
-        /* transform: translateZ(-380px);
-    filter: blur(20px);
-    box-shadow: 0 0 120px rgba(0, 255, 0, 0.2),
-        0 0 200px rgba(0, 255, 0, 0.4),
-        0 0 300px rgba(0, 255, 0, 0.6),
-        0 0 400px rgba(0, 255, 0, 0.8),
-        0 0 500px rgba(0, 255, 0, 1); */
-/* 
-    } */
