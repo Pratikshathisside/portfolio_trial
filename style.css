@@ -511,7 +511,7 @@ p {
 
 .icons {
     margin-left: 3.1em;
-    word-spacing: 20px;
+    word-spacing: 40px;
 }
 
 .iconstwo {
@@ -810,6 +810,11 @@ mh-professional-progress li {
         color: #666;
         font-size: 17px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .iconstwo {
+        margin-left: 50px;
+        word-spacing: 30px;
     }
 
     /* .sidebar {
