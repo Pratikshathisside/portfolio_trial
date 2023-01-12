@@ -610,6 +610,35 @@ body {
         transition: 0.2s;
         float: inline-start;
     }
+
+.head2 {
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 50vw;
+
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 34px;
+    color: teal;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-decoration: underline;
+    word-spacing: 1.2px;
+    transition: 0.2s;
+    float: inline-start;
+}
+
+.container1 .drop1 .card-contents h2 {
+    margin-top: 50px;
+    margin-left: 4%;
+    color: teal;
+    display: inline;
+    -webkit-text-stroke: 0.8px #96c5ba;
+    -webkit-text-stroke-color: #15656c;
+    text-shadow:
+        inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+    justify-content: center;
+    align-items: center;
+}
 }
 
 @media (max-width:870px) {
